@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "3e44edab-d64c-4990-8cfc-0348bbcbd5d8",
+		"name": "Avinash",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28063276",
+		"_collection_link": "https://interstellar-rocket-446625.postman.co/workspace/Punji~abf414db-b3ec-4240-87d4-31e005c05a12/collection/28063276-3e44edab-d64c-4990-8cfc-0348bbcbd5d8?action=share&source=collection_link&creator=28063276"
+	},
+	"item": [
+		{
+			"name": "listcoaches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/yii-project/web/coaches/listcoaches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"yii-project",
+						"web",
+						"coaches",
+						"listcoaches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Availabletimeclots",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/yii-project/web/coaches/availabletimeclots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"yii-project",
+						"web",
+						"coaches",
+						"availabletimeclots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "availabletimeclots",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"coach_id\":1,\"start_time\":\"08:00:00\",\"end_time\":\"16:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/yii-project/web/appointments/bookappointment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"yii-project",
+						"web",
+						"appointments",
+						"bookappointment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
